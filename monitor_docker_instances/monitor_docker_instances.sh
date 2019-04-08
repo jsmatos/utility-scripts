@@ -1,13 +1,11 @@
 #!/bin/bash
 
-# 
-#
-#
-#
+# To be used with an instance of generic_monitor plugin in xfce4
+# Simple script that verifies if some processes are running inside docker and to 
+# allow some actions by clicking on icons.
 #
 
 SELF_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
-echo ${SELF_DIR}
 
 
 function text {
